@@ -9,3 +9,10 @@ class User(Controller):
 
     def index(self):
         return self.load_view('index.html')
+
+    def dashboard(self):
+    	return self.load_view('dashboard.html')
+
+    def two(self):
+    	return self.load_view('twodown.html')
+ 
