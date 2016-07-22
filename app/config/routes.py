@@ -4,6 +4,7 @@ from system.core.router import routes
 routes['default_controller'] = 'User'
 routes['GET']['/dashboard'] = 'User#dashboard'
 routes['GET']['/dashboard/two'] = 'User#two'
+routes['POST']['/register'] = 'User#register'
 """
     You can add routes and specify their handlers as follows:
 
