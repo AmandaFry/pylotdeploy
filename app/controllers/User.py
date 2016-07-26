@@ -41,5 +41,6 @@ class User(Controller):
 			'conf_passw' : request.form['conf_passw'],
 			'birthday' : request.form['birthday']
 		}
+		#some change
 		pass
 
